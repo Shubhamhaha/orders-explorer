@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" font-family="Arial" font-size="13">
+<rect width="1100" height="720" fill="#fff"/>
+<text x="20" y="26" font-size="16" font-weight="bold">State 2 — filter matches zero rows (count reads “0 of 50,000 orders”)</text>
+<g fill="none" stroke="#222" stroke-width="1.5">
+<rect x="20" y="40" width="1060" height="660"/>
+<rect x="20" y="40" width="1060" height="36"/>
+<rect x="20" y="76" width="250" height="600"/>
+<rect x="270" y="76" width="810" height="36"/>
+<rect x="270" y="112" width="810" height="28"/>
+<rect x="20" y="676" width="1060" height="24"/>
+</g>
+<g font-size="12" fill="#222">
+<text x="30" y="63" font-weight="bold">Orders Explorer</text>
+<text x="150" y="63">1,284 of 50,000 orders</text>
+<text x="300" y="63">[Filters (2)]</text>
+<text x="780" y="63">3 selected · [Clear]   [Export CSV (3)]</text>
+<text x="30" y="96" font-weight="bold">FILTER BUILDER (left, 250px)</text>
+<text x="30" y="116" fill="#555">Group 1 — match ANY (OR)</text>
+<rect x="30" y="124" width="230" height="64" fill="none" stroke="#222"/><text x="38" y="144">[field v] [operator v] [x]</text><text x="38" y="168">value input / toggle chips</text>
+<text x="30" y="206" fill="#555">— OR —  + add condition</text>
+<text x="120" y="230" font-weight="bold">AND</text>
+<rect x="30" y="242" width="230" height="64" fill="none" stroke="#222"/><text x="38" y="262">Group 2: amount &gt; 5000</text>
+<text x="30" y="330">[+ Add group (AND)]</text>
+<text x="280" y="134">CHIPS:  (status ∈ shipped, delivered ×) or (…)   AND   (amount &gt; 5,000 ×)   Clear all</text>
+</g>
+<rect x="270" y="140" width="810" height="28" fill="#eee" stroke="#222"/><text x="280" y="159" font-size="12" font-weight="bold">Header stays visible</text>
+<text x="560" y="330" font-size="20" font-weight="bold">No orders match these filters</text>
+<text x="575" y="356" font-size="14" fill="#555">Try removing a condition, or start again.</text>
+<rect x="610" y="372" width="160" height="34" rx="6" fill="#2457d6"/><text x="637" y="394" font-size="14" fill="#fff">Clear all filters</text>
+<text x="280" y="134" font-size="12" fill="#c00"></text>
+<text x="30" y="692" font-size="11" fill="#555">Status bar: ↑↓←→ move · Space select · Enter details · S sort · P pin        30 duplicate IDs merged</text>
+</svg>
