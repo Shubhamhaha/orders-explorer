@@ -15,13 +15,13 @@ Node 24 (see `.nvmrc`). `orders.json` is already in `public/`.
 
 ## 2. Screenshots
 
-Main screen with data:
-
-![Main screen](docs/screenshot-main.png)
-
 Empty state (filter matches zero rows):
 
-![Empty state](docs/screenshot-empty.png)
+![Empty screen](docs/screenshot-main.png)
+
+Main screen with data:
+
+![Main screen](docs/screenshot-empty.png)
 
 ## 3. Dependencies
 
